@@ -45,8 +45,8 @@ git clone https://github.com/secretsquirrel/the-backdoor-factory /opt/the-backdo
 # Selenium
 pip3 install selenium
 
-#   HttpScreenShot
-#       HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+# HttpScreenShot
+#   HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
 git clone https://github.com/breenmachine/httpscreenshot.git /opt/httpscreenshot
 cd /opt/httpscreenshot
 chmod +x install-dependencies.sh && ./install-dependencies.sh
