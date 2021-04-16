@@ -180,7 +180,7 @@ git clone https://github.com/samratashok/nishang /opt/nishang
 #   Veil-PowerView for gaining situational awareness on Windows domains. Veil will be
 #   used to create a python based Meterpreter executable.
 git clone https://github.com/Veil-Framework/Veil /opt/Veil
-cd /opt/Veil/ && ./Install.sh -c
+cd /opt/Veil/ && ./install.sh -c
 
 # Fuzzing Lists (SecLists)
 #   These are scripts to use with Burp to fuzz parameters
