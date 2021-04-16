@@ -45,8 +45,8 @@ git clone https://github.com/secretsquirrel/the-backdoor-factory /opt/the-backdo
 # Selenium
 pip3 install selenium
 
-#   HttpScreenShot
-#       HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+# HttpScreenShot
+#   HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
 git clone https://github.com/breenmachine/httpscreenshot.git /opt/httpscreenshot
 cd /opt/httpscreenshot
 chmod +x install-dependencies.sh && ./install-dependencies.sh
@@ -180,7 +180,7 @@ git clone https://github.com/samratashok/nishang /opt/nishang
 #   Veil-PowerView for gaining situational awareness on Windows domains. Veil will be
 #   used to create a python based Meterpreter executable.
 git clone https://github.com/Veil-Framework/Veil /opt/Veil
-cd /opt/Veil/ && ./Install.sh -c
+cd /opt/Veil/ && ./install.sh -c
 
 # Fuzzing Lists (SecLists)
 #   These are scripts to use with Burp to fuzz parameters
