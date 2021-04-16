@@ -4,7 +4,7 @@ apt-get dist-upgrade
 
 # Install pip
 #   pip is the package installer for Python. You can use pip to install packages.
-sudo apt-get install python3-pip
+sudo apt-get -y install python3-pip
 
 # Install Firefox
 sudo apt-get -y install firefox
