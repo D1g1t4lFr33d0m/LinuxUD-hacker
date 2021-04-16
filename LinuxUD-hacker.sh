@@ -4,10 +4,10 @@ apt-get dist-upgrade
 
 # Install pip
 #   pip is the package installer for Python. You can use pip to install packages.
-sudo apt-get -y install python3-pip
+apt-get -y install python3-pip
 
 # Install Firefox
-sudo apt-get -y install firefox
+apt-get -y install firefox
 
 # Setup Metasploit database
 service postgresql start
