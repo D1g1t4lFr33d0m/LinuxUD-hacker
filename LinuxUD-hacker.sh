@@ -7,7 +7,7 @@ apt-get dist-upgrade
 sudo apt-get install python3-pip
 
 # Install Firefox
-sudo apt install firefox
+sudo apt-get -y install firefox
 
 # Setup Metasploit database
 service postgresql start
@@ -20,7 +20,7 @@ update-rc.d postgresql enable
 #   service metasploit stop
 
 # Install gedit
-apt-get install -y gedit
+apt-get -y install gedit
 
 # Change the hostname - Many network admins look for systems named Kali in logslike DHCP. It is best to follow the naming standard used by the company you are testing
 #   gedit /etc/hostname
@@ -59,7 +59,7 @@ cd /opt/smbexec && ./install.sh
 
 # Masscan
 #   This is the fastest Internet port scanner. It can scan the entire Internet in under six minutes.
-apt-get install git gcc make libpcap-dev
+apt-get -y install git gcc make libpcap-dev
 git clone https://github.com/robertdavidgraham/masscan.git /opt/masscan
 cd /opt/masscan
 make
@@ -68,12 +68,12 @@ make install
 # Gitrob
 #   Reconnaissance tool for GitHub organizations
 git clone https://github.com/michenriksen/gitrob.git /opt/gitrob
-gem install bundler
-service postgresql start
-su postgres
-createuser -s gitrob --pwprompt
-createdb -O gitrob gitrob
-exit
+#   gem install bundler
+#   service postgresql start
+#   su postgres
+#   createuser -s gitrob --pwprompt
+#   createdb -O gitrob gitrob
+#   exit
 
 # CMSmap
 #   CMSmap is a python open source CMS (Content Management System) scanner that automates the process of detecting security flaws.
@@ -133,7 +133,7 @@ git clone https://www.github.com/cheetz/reddit_xss /opt/reddit_xss
 #   A python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.
 git clone https://github.com/secforce/sparta.git /opt/sparta
 #       apt-get install python-elixir
-apt-get install ldap-utils rwho rsh-client x11-apps finger
+apt-get -y install ldap-utils rwho rsh-client x11-apps finger
 
 # NoSQLMap
 #   A automated pentesting toolset for MongoDB database servers and web applications.
