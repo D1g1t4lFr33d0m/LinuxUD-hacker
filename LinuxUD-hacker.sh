@@ -1,6 +1,6 @@
 # General Update
-apt-get update
-apt-get dist-upgrade
+apt-get -y update
+apt-get -y dist-upgrade
 
 # Install pip
 #   pip is the package installer for Python. You can use pip to install packages.
@@ -106,11 +106,11 @@ cd /opt/discover && ./setup.sh
 
 # BeEF Exploitation Framework
 #   A cross-site scripting attack framework
-cd /opt/
-wget https://raw.github.com/beefproject/beef/a6a7536e/install-beef
-chmod +x install-beef
-./install-beef
-cd~
+#       cd /opt/
+#       wget https://raw.github.com/beefproject/beef/a6a7536e/install-beef
+#       chmod +x install-beef
+#       ./install-beef
+#       cd~
 
 # Responder
 #   A LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2,
