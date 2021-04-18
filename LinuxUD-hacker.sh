@@ -89,7 +89,7 @@ git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness
 
 # Printer Exploits
 #   Contains a number of commonly found printer exploits
-git clone https://github.com/MooseDojo/praedasploit /opt/praedasploit
+#       git clone https://github.com/MooseDojo/praedasploit /opt/praedasploit
 
 # SQLMap
 #   SQL Injection Tool
@@ -162,8 +162,8 @@ unzip -d ./mimikatz mimikatz_trunk.zip
 
 # SET
 #   Social Engineering Toolkit (SET) will be used for the social engineering campaigns
-git clone https://github.com/trustedsec/social-engineer-toolkit/ /opt/set/
-cd /opt/set && ./setup.py install
+#       git clone https://github.com/trustedsec/social-engineer-toolkit/ /opt/set/
+#       cd /opt/set && ./setup.py install
 
 # PowerSploit (PowerShell)
 #   PowerShell scripts for post exploitation
